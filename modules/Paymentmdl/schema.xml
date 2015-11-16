@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_paymentmdl</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_paymentmdl` ( `paymentmdlid` int(11) NOT NULL DEFAULT '0', `paymentmdlno` varchar(100) DEFAULT NULL, `paymentmdl_tks_tanggalpembayar` date DEFAULT NULL, `paymentmdl_tks_biayauangmuka` decimal(20,5) DEFAULT NULL, `paymentmdl_tks_jenispembayaran` varchar(100) DEFAULT NULL, `paymentmdl_tks_termin` varchar(5) DEFAULT NULL, `paymentmdl_tks_ppn` decimal(5,2) DEFAULT NULL, `paymentmdl_tks_diskon` varchar(20) DEFAULT NULL, `salesorder_id` int(11) NOT NULL DEFAULT '0', `paymentmdl_tks_totalbayar` decimal(20,5) NOT NULL DEFAULT '0.00000', `paymentmdl_tks_totaltagihan` decimal(20,5) NOT NULL DEFAULT '0.00000', `subject` varchar(100) DEFAULT NULL, PRIMARY KEY (`paymentmdlid`), KEY `salesorder_id` (`salesorder_id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_paymentmdlcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_paymentmdlcf` (`paymentmdlid` int(11) NOT NULL, PRIMARY KEY (`paymentmdlid`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

@@ -1,0 +1,9 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=true;
+
+$user_info=array('user_name'=>'agus','is_admin'=>'on','user_password'=>'$1$ag000000$bidKiOsEYROLte7frDHdQ.','confirm_password'=>'$1$ag000000$bidKiOsEYROLte7frDHdQ.','first_name'=>'','last_name'=>'agus','roleid'=>'H2','email1'=>'agusbeggy@yahoo.com','status'=>'Active','activity_view'=>'This Month','lead_view'=>'Today','hour_format'=>'24','end_hour'=>'23:00','start_hour'=>'00:00','title'=>'','phone_work'=>'','department'=>'','phone_mobile'=>'','reports_to_id'=>'','phone_other'=>'','email2'=>'','phone_fax'=>'','secondaryemail'=>'','phone_home'=>'','date_format'=>'dd-mm-yyyy','signature'=>'','description'=>'','address_street'=>'','address_city'=>'','address_state'=>'','address_postalcode'=>'','address_country'=>'','accesskey'=>'s7PauUZGCz6fXdVQ','time_zone'=>'Asia/Bangkok','currency_id'=>'1','currency_grouping_pattern'=>'123,456,789','currency_decimal_separator'=>'.','currency_grouping_separator'=>',','currency_symbol_placement'=>'$1.0','imagename'=>'','internal_mailer'=>'1','theme'=>'softed','language'=>'en_us','reminder_interval'=>'1 Minute','phone_crm_extension'=>'','no_of_currency_decimals'=>'2','truncate_trailing_zeros'=>'0','dayoftheweek'=>'Sunday','callduration'=>'5','othereventduration'=>'5','calendarsharedtype'=>'public','default_record_view'=>'Summary','leftpanelhide'=>'0','rowheight'=>'medium','defaulteventstatus'=>'Select an Option','defaultactivitytype'=>'Select an Option','hidecompletedevents'=>'0','is_owner'=>'1','currency_name'=>'Indonesia, Rupiahs','currency_code'=>'IDR','currency_symbol'=>'Rp','conv_rate'=>'1.00000','record_id'=>'','record_module'=>'','id'=>'5');
+
+?>
